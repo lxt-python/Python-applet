@@ -9,11 +9,8 @@ import pymysql
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-import math
 import re
 from lxml import etree
-import time
-import json
 import requests
 
 DB = "whbk"
