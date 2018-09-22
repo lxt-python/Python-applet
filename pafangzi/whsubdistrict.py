@@ -37,10 +37,10 @@ def get_sub_districts():
 
 if __name__ == "__main__":
     db = pymysql.connect(
-            host="localhost",       # 数据库主机地址
-            user="asx",    # 数据库用户名
-            passwd="xbd",   # 数据库密码
-            database="whbk"
+            host="***",       # 数据库主机地址
+            user="***",    # 数据库用户名
+            passwd="***",   # 数据库密码
+            database="***"
             )
     cur = db.cursor()
     selectsql = "select * from whdistricts"
